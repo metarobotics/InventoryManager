@@ -15,29 +15,29 @@ TomcatV9(v7~)
 
 _no 	int(7)   (100만) 	: order_no만 10자리 
 _id 	varchar(15)
-기타 		varchar(45)
+기타 	varchar(45)
 note 	varchar(500)
 cnt 	int(11) : 100억 
 amt 	DEC(15,0) : 100조  	: 나중에 화폐코드 등 추가 
 
 ## table lists
 
-item
+### item
 	item_no
 	sku
 	sku_id	
 
-order
+### order
 	order_no
 	order_item
 	order_no
 	seq
-user
+### user
 	user_no
 	user_auth
 	user_no
 	wh_no
-wh
+### wh
 	wh_no
 	wh_item
 	wh_no
